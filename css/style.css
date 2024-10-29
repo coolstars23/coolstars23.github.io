@@ -229,9 +229,9 @@ div.highlightbox p {
 }
 
 /* UCSD FOOTER ===============================================================*/
-.leaf {display: inline; border-right: 1px solid; color: white;
+/*.leaf {display: inline; border-right: 1px solid; color: white;
        padding-right: 8px;}
-.last {border-right: medium none;}
+.last {border-right: medium none;}*/
 
 /* CONTRIBUTION PAGE SPECIAL =================================================== */
 p.abstracts {margin: 5px 0;}
@@ -325,6 +325,13 @@ tr.shown td.details-control {
   .carousel-inner > .item > img {height: 200px; object-fit: cover; object-position: center top;}
   .contactform textarea {width:79%;}
 }
+/* ADDED BY CS23 TEAM CSS ================================================== */
+.item img {
+    max-width: 100%; 
+    height: auto; 
+}
+/* ADDED BY CS23 TEAM CSS ================== */
+
 @media print {
   * {color: #000 !important;text-shadow: none !important;background: transparent !important;box-shadow: none !important;}
   a,a:visited {text-decoration: underline;}
@@ -340,3 +347,5 @@ tr.shown td.details-control {
 }
 
 @-ms-viewport {width: device-width;}
+
+
