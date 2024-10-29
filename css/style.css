@@ -77,6 +77,7 @@ ul.social li a.in:hover{background-position: -350px -100px;}
 .glyphicon {position: relative;top: 1px;display: inline-block;font-family: 'Glyphicons Halflings';-webkit-font-smoothing: antialiased;font-style: normal;font-weight: normal;line-height: 1;-moz-osx-font-smoothing: grayscale;}
 .glyphicon-chevron-left:before {content: "\e079";}
 .glyphicon-chevron-right:before {content: "\e080";}
+@font-face {font-family: 'museomoderno';src: url('../fonts/MuseoModerno-BoldItalic.ttf')
 @font-face {font-family: 'varino';src: url('../fonts/Varino-Normal.otf');src: url('../fonts/Varino-Normal.ttf') format('truetype');}
 @font-face {font-family: 'sf distant galaxy';src: url('../fonts/SfDistantGalaxy.ttf');src: url('../fonts/SfDistantGalaxy.ttf') format('truetype');}
 
