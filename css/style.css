@@ -208,13 +208,24 @@ h3 {color:#db6c55;font-weight:400;}
   text-decoration: none;
 }
 
-table.schedule {text-align: center;}
+table.schedule {
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+               }
 .plenary {background-color: #cbeaf6;}
 .splinter {background-color: #ccffcc;}
 .break {background-color: #ffebcd;}
 .socialac {background-color: #ffffcc;}
 .workshop {background-color: #fbccff;}
 .frankshu {background-color: #B6B1A9;}
+.schedule td, .schedule th {
+    border: 1px solid #aaa;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+  }
 tr.title {font-weight: bold;}
 td.time {font-weight: bold;}
 
