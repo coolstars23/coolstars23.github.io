@@ -341,7 +341,6 @@ tr.shown td.details-control {
     max-width: 100%; 
     height: auto; 
 }
-/* ADDED BY CS23 TEAM CSS ================== */
 
 @media print {
   * {color: #000 !important;text-shadow: none !important;background: transparent !important;box-shadow: none !important;}
@@ -359,4 +358,14 @@ tr.shown td.details-control {
 
 @-ms-viewport {width: device-width;}
 
+/* Adjust paragraph spacing only in the themes section */
+#themes p {
+  margin-top: 8px;   /* space above the paragraph */
+  margin-bottom: 20px; /* space below the paragraph */
+}
+
+/* Optional: reduce space between heading and paragraph */
+#themes h3 {
+  margin-bottom: 4px; /* space below the heading */
+}
 
