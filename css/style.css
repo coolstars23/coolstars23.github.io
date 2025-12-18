@@ -176,13 +176,21 @@ h3 {color:#db6c55;font-weight:400;}
   display: inline-block;
 }
 
+/*
 .button:hover {
-  background: #C69214;
+  background: #0069c0;
   background-image: -webkit-linear-gradient(top, #C69214, #db6c55);
   background-image: -moz-linear-gradient(top, #C69214, #db6c55);
   background-image: -ms-linear-gradient(top, #C69214, #db6c55);
   background-image: -o-linear-gradient(top, #C69214, #db6c55);
   background-image: linear-gradient(to bottom, #C69214, #db6c55 );
+  text-decoration: none;
+}
+*/
+
+.button:hover {
+  background-color: #dce3ea;  /* ブルーグレー */
+  color: #db6c55;             /* テーマカラー */
   text-decoration: none;
 }
 
@@ -213,7 +221,7 @@ table.schedule {
   width: 90%;
   border-collapse: collapse;
   font-family: Arial, sans-serif;
-               }
+}
 .plenary {background-color: #cbeaf6;}
 .splinter {background-color: #ccffcc;}
 .break {background-color: #ffebcd;}
