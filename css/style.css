@@ -9,7 +9,7 @@ canvas{display: inline-block;}
 a {color: #db6c55;text-decoration: none;}
 a:hover,a:focus {color: #db6c55;text-decoration: underline;outline: none;}
 p {margin: 20px 0;}
-ol {padding: 20px;}
+ol {padding: 0px;}
 ul,ol {margin-top: 0;margin-bottom: 10px;}
 ul ul,ol ul,ul ol,ol ol {margin-bottom: 0;}
 
@@ -154,8 +154,10 @@ h3 {color:#db6c55;font-weight:400;}
 
 .about img {display:block;margin:0 auto;}
 .name {color:#db6c55;font-size:1.143em;font-weight:600;margin:0;}
-.position {margin:0 0 20px; }
-.listing {margin: 15px;}
+.position {margin:0 0 20px; list-style: inherit;}
+.listing {margin: 20px; margin-top:5px}
+.listing li {margin-bottom: 5px}
+
 .sponsor-logo img {max-height:100px}
 .rightlinks {text-align: right;margin-bottom: 5px}
 .locationschedule {margin: 10px 0;}
