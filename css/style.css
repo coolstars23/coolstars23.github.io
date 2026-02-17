@@ -158,7 +158,16 @@ h3 {color:#db6c55;font-weight:400;}
 .listing {margin: 20px; margin-top:5px}
 .listing li {margin-bottom: 5px}
 
-.sponsor-logo img {max-height:100px}
+.sponsor-logo .img {
+  display: flex;
+  align-items: center; 
+  gap: 20px;
+}
+.sponsor-logo img {
+  height: 100px;
+  width: auto;
+  max-width: none;
+}
 .rightlinks {text-align: right;margin-bottom: 5px}
 .locationschedule {margin: 10px 0;}
 
