@@ -406,4 +406,7 @@ tr.shown td.details-control {
   border: 0;
   display: block;
 }
-
+.past,
+.past strong {
+    color: #999999;
+}
