@@ -1,4 +1,4 @@
-const COMMUNITY = "coolstars23";
+const COMMUNITY = "coolstars22";
 const PAGE_SIZE = 25;
 
 const statusEl = document.getElementById("status");
