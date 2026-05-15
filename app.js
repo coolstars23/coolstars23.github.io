@@ -26,7 +26,7 @@ function getPdfFile(record) {
 function getThumbUrl(record) {
   const thumbs = record.links?.thumbnails;
   if (!thumbs) return null;
-  return thumbs["250"] || thumbs["100"] || thumbs["50"] || null;
+  return thumbs["750"] || thumbs["500"] || thumbs["250"] || null;
 }
 
 function isPoster(record) {
