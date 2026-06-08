@@ -4,6 +4,7 @@ const POSTERS_PER_PAGE = 50;
 
 const statusEl = document.getElementById("status");
 const galleryEl = document.getElementById("gallery");
+const searchInput = document.getElementById("searchInput");
 
 let allPosters = [];
 let currentPage = 1;
@@ -132,25 +133,55 @@ function renderPagination(totalPages) {
   }
 }
 
+function getFilteredPosters() {
+  const query = searchInput?.value.trim().toLowerCase() || "";
+
+  if (!query) return allPosters;
+
+  const keywords = query.split(/\s+/);
+
+  return allPosters.filter(record => {
+    const title = (record.metadata?.title || "").toLowerCase();
+    const authors = getAuthors(record).toLowerCase();
+
+    const searchableText = `${title} ${authors}`;
+
+    return keywords.every(keyword =>
+      searchableText.includes(keyword)
+    );
+  });
+}
+
+
 function renderCurrentPage() {
   galleryEl.innerHTML = "";
+
+  const filteredPosters = getFilteredPosters();
+  const totalPages = Math.ceil(filteredPosters.length / POSTERS_PER_PAGE);
+
+  if (totalPages > 0 && currentPage > totalPages) {
+    currentPage = totalPages;
+  }
 
   const start = (currentPage - 1) * POSTERS_PER_PAGE;
   const end = start + POSTERS_PER_PAGE;
 
-  const posters = allPosters.slice(start, end);
+  const posters = filteredPosters.slice(start, end);
 
   posters.forEach(record => {
     galleryEl.appendChild(buildCard(record));
   });
 
-  const totalPages = Math.ceil(allPosters.length / POSTERS_PER_PAGE);
-
   renderPagination(totalPages);
 
+  if (filteredPosters.length === 0) {
+    statusEl.textContent = "No posters found";
+    return;
+  }
+
   statusEl.textContent =
-    `${allPosters.length} posters found ` +
-    `(showing ${start + 1}-${Math.min(end, allPosters.length)})`;
+    `${filteredPosters.length} posters found ` +
+    `(showing ${start + 1}-${Math.min(end, filteredPosters.length)})`;
 }
 
 async function fetchAllRecords() {
@@ -197,7 +228,10 @@ async function loadPosters() {
 
     const allRecords = await fetchAllRecords();
 
-    allPosters = allRecords.filter(isPoster);
+    //allPosters = allRecords.filter(isPoster);
+    allPosters = allRecords
+    .filter(isPoster)
+    .sort(() => Math.random() - 0.5);
 
     currentPage = 1;
 
@@ -209,6 +243,13 @@ async function loadPosters() {
     statusEl.textContent =
       `Failed to load posters: ${err.message}`;
   }
+}
+
+if (searchInput) {
+  searchInput.addEventListener("input", () => {
+    currentPage = 1;
+    renderCurrentPage();
+  });
 }
 
 loadPosters();
