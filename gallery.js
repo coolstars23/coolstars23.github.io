@@ -28,8 +28,23 @@ function getPdfFile(record) {
   return files.find(f => f.key?.toLowerCase().endsWith(".pdf")) || null;
 }
 
+const MANUAL_THUMBNAILS = {
+  20616752: "images/poster-thumbs/20616752.jpg",
+  20616531: "images/poster-thumbs/20616531.jpg",
+  20617031: "images/poster-thumbs/20617031.jpg",
+  20615532: "images/poster-thumbs/20615532.jpg",
+  20616268: "images/poster-thumbs/20616268.jpg",
+  20620290: "images/poster-thumbs/20620290.jpg",
+  20420912: "images/poster-thumbs/20420912.jpg"
+};
+
 function getThumbUrl(record) {
+  if (MANUAL_THUMBNAILS[record.id]) {
+    return MANUAL_THUMBNAILS[record.id];
+  }
+
   const thumbs = record.links?.thumbnails;
+
   if (!thumbs) return null;
 
   return (
@@ -68,6 +83,7 @@ function buildCard(record) {
                alt="Poster thumbnail"
                loading="lazy"
                decoding="async"
+               onerror="this.onerror=null; this.parentElement.innerHTML='<div class=&quot;thumb-placeholder&quot;>No thumbnail</div>';"
              >`
           : `<div class="thumb-placeholder">No thumbnail</div>`
       }
@@ -152,7 +168,6 @@ function getFilteredPosters() {
   });
 }
 
-
 function renderCurrentPage() {
   galleryEl.innerHTML = "";
 
@@ -228,10 +243,9 @@ async function loadPosters() {
 
     const allRecords = await fetchAllRecords();
 
-    //allPosters = allRecords.filter(isPoster);
     allPosters = allRecords
-    .filter(isPoster)
-    .sort(() => Math.random() - 0.5);
+      .filter(isPoster)
+      .sort(() => Math.random() - 0.5);
 
     currentPage = 1;
 
