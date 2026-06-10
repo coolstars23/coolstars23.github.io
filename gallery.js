@@ -1,6 +1,6 @@
 const COMMUNITY = "coolstars23";
 const PAGE_SIZE = 25;
-const POSTERS_PER_PAGE = 50;
+const POSTERS_PER_PAGE = 20;
 
 const statusEl = document.getElementById("status");
 const galleryEl = document.getElementById("gallery");
@@ -83,6 +83,7 @@ function buildCard(record) {
                alt="Poster thumbnail"
                loading="lazy"
                decoding="async"
+               fetchpriority="low"
                onerror="this.onerror=null; this.parentElement.innerHTML='<div class=&quot;thumb-placeholder&quot;>No thumbnail</div>';"
              >`
           : `<div class="thumb-placeholder">No thumbnail</div>`
@@ -110,44 +111,48 @@ function buildCard(record) {
 }
 
 function renderPagination(totalPages) {
-  let paginationEl = document.getElementById("pagination");
+  ["paginationTop", "paginationBottom"].forEach(id => {
+    let paginationEl = document.getElementById(id);
 
-  if (!paginationEl) {
-    paginationEl = document.createElement("div");
-    paginationEl.id = "pagination";
-    paginationEl.style.margin = "30px 0";
-    paginationEl.style.display = "flex";
-    paginationEl.style.flexWrap = "wrap";
-    paginationEl.style.gap = "10px";
+    if (!paginationEl) {
+      paginationEl = document.createElement("div");
+      paginationEl.id = id;
+      paginationEl.style.margin = "30px 0";
+      paginationEl.style.display = "flex";
+      paginationEl.style.flexWrap = "wrap";
+      paginationEl.style.gap = "10px";
+      paginationEl.style.justifyContent = "center";
 
-    galleryEl.parentNode.insertBefore(paginationEl, galleryEl);
-  }
+      if (id === "paginationTop") {
+        galleryEl.parentNode.insertBefore(paginationEl, galleryEl);
+      } else {
+        galleryEl.parentNode.insertBefore(paginationEl, galleryEl.nextSibling);
+      }
+    }
 
-  paginationEl.innerHTML = "";
+    paginationEl.innerHTML = "";
 
-  for (let i = 1; i <= totalPages; i++) {
-    const btn = document.createElement("button");
+    for (let i = 1; i <= totalPages; i++) {
+      const btn = document.createElement("button");
+      btn.textContent = i;
 
-    btn.textContent = i;
+      btn.style.padding = "8px 14px";
+      btn.style.border = "1px solid #ccc";
+      btn.style.borderRadius = "6px";
+      btn.style.cursor = "pointer";
+      btn.style.background = i === currentPage ? "#ddd" : "#fff";
 
-    btn.style.padding = "8px 14px";
-    btn.style.border = "1px solid #ccc";
-    btn.style.borderRadius = "6px";
-    btn.style.cursor = "pointer";
-    btn.style.background = i === currentPage ? "#ddd" : "#fff";
+      btn.onclick = () => {
+        currentPage = i;
+        renderCurrentPage();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
 
-    btn.onclick = () => {
-      currentPage = i;
-      renderCurrentPage();
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-    };
-
-    paginationEl.appendChild(btn);
-  }
+      paginationEl.appendChild(btn);
+    }
+  });
 }
+
 
 function getFilteredPosters() {
   const query = searchInput?.value.trim().toLowerCase() || "";
@@ -239,7 +244,7 @@ async function fetchAllRecords() {
 
 async function loadPosters() {
   try {
-    statusEl.textContent = "Loading posters...";
+    statusEl.textContent = "Loading posters... (may take ~30 s)";
 
     const allRecords = await fetchAllRecords();
 
