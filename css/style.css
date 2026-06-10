@@ -142,6 +142,23 @@ ul.social li a.in:hover{background-position: -350px -100px;}
 .intro-text {font-size:2.05em;text-align:center;line-height:1.5em;font-weight:normal;color:#db6c55}
 .welcome-text {font-size:1.05em;text-align:center;line-height:1.5em;font-weight:normal;font-style: italic;}
 .button-list {font-size:1.2em;text-align:center;line-height:1.5em;font-weight:normal;}
+/* mobile only */
+@media screen and (max-width: 768px) {
+  .button-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .button-list .button {
+    width: 85%;
+    max-width: 350px;
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
 h2 {background:transparent url('../cs22icons/sep-line.gif') repeat-x 0 51%;font-size:1.25em;margin:20px 0;}
 h2 span{background: #fff; padding-right: 20px;color:#db6c55;font-weight:400;}
 h3 {color:#db6c55;font-weight:400;}
