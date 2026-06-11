@@ -28,33 +28,25 @@ function getPdfFile(record) {
   return files.find(f => f.key?.toLowerCase().endsWith(".pdf")) || null;
 }
 
-const MANUAL_THUMBNAILS = {
-  20616752: "images/poster-thumbs/20616752.jpg",
-  20616531: "images/poster-thumbs/20616531.jpg",
-  20617031: "images/poster-thumbs/20617031.jpg",
-  20615532: "images/poster-thumbs/20615532.jpg",
-  20616268: "images/poster-thumbs/20616268.jpg",
-  20620290: "images/poster-thumbs/20620290.jpg",
-  20420912: "images/poster-thumbs/20420912.jpg"
-};
-
 function getThumbUrl(record) {
-  if (MANUAL_THUMBNAILS[record.id]) {
-    return MANUAL_THUMBNAILS[record.id];
-  }
+  const localThumbUrl = `images/poster-thumbs/${record.id}.jpg`;
 
   const thumbs = record.links?.thumbnails;
+  const zenodoThumbUrl = thumbs
+    ? (
+        thumbs["750"] ||
+        thumbs["500"] ||
+        thumbs["250"] ||
+        thumbs["100"] ||
+        thumbs["50"] ||
+        null
+      )
+    : null;
 
-  if (!thumbs) return null;
-
-  return (
-    thumbs["750"] ||
-    thumbs["500"] ||
-    thumbs["250"] ||
-    thumbs["100"] ||
-    thumbs["50"] ||
-    null
-  );
+  return {
+    local: localThumbUrl,
+    fallback: zenodoThumbUrl
+  };
 }
 
 function isPoster(record) {
@@ -69,26 +61,13 @@ function buildCard(record) {
   const pdfFile = getPdfFile(record);
   const pdfUrl = pdfFile?.links?.self || recordUrl;
 
-  const thumbUrl = getThumbUrl(record);
+  const thumbUrls = getThumbUrl(record);
 
   const article = document.createElement("article");
   article.className = "card";
 
   article.innerHTML = `
-    <div class="thumb-wrap">
-      ${
-        thumbUrl
-          ? `<img
-               src="${thumbUrl}"
-               alt="Poster thumbnail"
-               loading="lazy"
-               decoding="async"
-               fetchpriority="low"
-               onerror="this.onerror=null; this.parentElement.innerHTML='<div class=&quot;thumb-placeholder&quot;>No thumbnail</div>';"
-             >`
-          : `<div class="thumb-placeholder">No thumbnail</div>`
-      }
-    </div>
+    <div class="thumb-wrap"></div>
 
     <div class="card-body">
       <h2 class="title">${title}</h2>
@@ -106,6 +85,25 @@ function buildCard(record) {
       </div>
     </div>
   `;
+
+  const thumbWrap = article.querySelector(".thumb-wrap");
+
+  const img = document.createElement("img");
+  img.src = thumbUrls.local;
+  img.alt = "Poster thumbnail";
+  img.loading = "lazy";
+  img.decoding = "async";
+  img.fetchPriority = "low";
+
+  img.onerror = () => {
+    if (thumbUrls.fallback && img.src !== thumbUrls.fallback) {
+      img.src = thumbUrls.fallback;
+    } else {
+      thumbWrap.innerHTML = `<div class="thumb-placeholder">No thumbnail</div>`;
+    }
+  };
+
+  thumbWrap.appendChild(img);
 
   return article;
 }
