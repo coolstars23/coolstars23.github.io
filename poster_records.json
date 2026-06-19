@@ -364,6 +364,53 @@
     "thumbnail_url": "images/poster-thumbs/20666727.jpg"
   },
   {
+    "id": 20702708,
+    "title": "A closer look at the most flaring stars on the Southern Hemisphere",
+    "authors": [
+      "Korhonen, Heidi",
+      "Seli, Bálint",
+      "Vida, Krisztián"
+    ],
+    "modified": "2026-06-15T14:02:12.387480+00:00",
+    "created": "2026-06-15T14:02:12.052209+00:00",
+    "doi": "10.5281/zenodo.20702708",
+    "record_url": "https://zenodo.org/records/20702708",
+    "pdf_key": "CME_poster_CS23.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20702708/files/CME_poster_CS23.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20702708.jpg"
+  },
+  {
+    "id": 20739991,
+    "title": "A multi-method Galactic halo binary survey using high-angular resolution images and light curves",
+    "authors": [
+      "Sloneker, Melodie",
+      "Lepine, Sebastien",
+      "Hartman, Zachary",
+      "Rich, R. Michael"
+    ],
+    "modified": "2026-06-18T03:00:33.731581+00:00",
+    "created": "2026-06-18T03:00:33.347960+00:00",
+    "doi": "10.5281/zenodo.20739991",
+    "record_url": "https://zenodo.org/records/20739991",
+    "pdf_key": "cool_stars_poster_2026.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20739991/files/cool_stars_poster_2026.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20739991.jpg"
+  },
+  {
+    "id": 20689014,
+    "title": "A new population of substellar companions to M dwarfs with Gaia",
+    "authors": [
+      "Destriez, Florian"
+    ],
+    "modified": "2026-06-14T13:30:50.518319+00:00",
+    "created": "2026-06-14T13:30:50.294496+00:00",
+    "doi": "10.5281/zenodo.20689014",
+    "record_url": "https://zenodo.org/records/20689014",
+    "pdf_key": "Poster CS23 no name.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20689014/files/Poster%20CS23%20no%20name.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20689014.jpg"
+  },
+  {
     "id": 19915089,
     "title": "A predictive framework for realistic star-planet radio emission in compact systems",
     "authors": [
@@ -721,6 +768,21 @@
     "thumbnail_url": "images/poster-thumbs/20594957.jpg"
   },
   {
+    "id": 20397625,
+    "title": "Besançon Galaxy Model 2.0 : A new Generation of Stellar Population Synthesis",
+    "authors": [
+      "Cabral, Nahuel",
+      "Lagarde, Nadege"
+    ],
+    "modified": "2026-05-26T16:44:05.123921+00:00",
+    "created": "2026-05-26T16:44:04.855176+00:00",
+    "doi": "10.5281/zenodo.20397625",
+    "record_url": "https://zenodo.org/records/20397625",
+    "pdf_key": "Cabral_coolstars_poster1.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20397625/files/Cabral_coolstars_poster1.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20397625.jpg"
+  },
+  {
     "id": 20410541,
     "title": "BiSON Sun-as-a-Star Data: New Calibration Method for Long-baseline High-cadence Extreme Precision Radial Velocities",
     "authors": [
@@ -994,6 +1056,23 @@
     "thumbnail_url": "images/poster-thumbs/20588891.jpg"
   },
   {
+    "id": 20693176,
+    "title": "Constraining the Orbits of Binary Stars in Nearby Moving Groups",
+    "authors": [
+      "Burke, Joel",
+      "Chilcote, Jeffrey",
+      "Nielsen, Eric",
+      "Roberson, William"
+    ],
+    "modified": "2026-06-14T21:49:17.661840+00:00",
+    "created": "2026-06-14T21:49:17.417218+00:00",
+    "doi": "10.5281/zenodo.20693176",
+    "record_url": "https://zenodo.org/records/20693176",
+    "pdf_key": "Burke_Constraining_Orbits_of_Binary_Stars_CoolStars23.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20693176/files/Burke_Constraining_Orbits_of_Binary_Stars_CoolStars23.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20693176.jpg"
+  },
+  {
     "id": 20601549,
     "title": "Constraining the age-metallicity relation of the solar neighbourhood with CMD fitting",
     "authors": [
@@ -1009,6 +1088,20 @@
     "thumbnail_url": "images/poster-thumbs/20601549.jpg"
   },
   {
+    "id": 20712269,
+    "title": "Constraining the multiplicity of the coldest brown dwarfs down to planetary masses between 0.5 and 1000 au with JWST",
+    "authors": [
+      "Vandal, Thomas"
+    ],
+    "modified": "2026-06-16T06:20:40.583574+00:00",
+    "created": "2026-06-16T06:20:40.400118+00:00",
+    "doi": "10.5281/zenodo.20712269",
+    "record_url": "https://zenodo.org/records/20712269",
+    "pdf_key": "vandal_thomas_poster_coolstars_tokyo.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20712269/files/vandal_thomas_poster_coolstars_tokyo.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20712269.jpg"
+  },
+  {
     "id": 20580054,
     "title": "Contribution of stellar evolution to galactic Li evolution",
     "authors": [
@@ -1021,6 +1114,23 @@
     "pdf_key": "Poster_template.pdf",
     "pdf_url": "https://zenodo.org/api/records/20580054/files/Poster_template.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20580054.jpg"
+  },
+  {
+    "id": 20694800,
+    "title": "Cool Dwarf Spectral Sequences With SPHEREx",
+    "authors": [
+      "Rustamkulov, Zafar",
+      "Rustamkulov, Zafar",
+      "Kirkpatrick, Davy",
+      "Akeson, Rachel"
+    ],
+    "modified": "2026-06-15T02:25:13.553442+00:00",
+    "created": "2026-06-15T02:21:50.516258+00:00",
+    "doi": "10.5281/zenodo.20694800",
+    "record_url": "https://zenodo.org/records/20694800",
+    "pdf_key": "Zafar_Cool_Stars_poster.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20694800/files/Zafar_Cool_Stars_poster.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20694800.jpg"
   },
   {
     "id": 20549498,
@@ -1095,6 +1205,30 @@
     "thumbnail_url": "images/poster-thumbs/20445943.jpg"
   },
   {
+    "id": 20685805,
+    "title": "Decoding the Radial Velocity Signatures of Solar Faculae with 3D MHD Simulations",
+    "authors": [
+      "Kröll, Florian",
+      "Krishnamurthy, Sowmya",
+      "Shapiro, Alexander",
+      "Cameron, Andrew",
+      "Witzke, Veronika",
+      "Solanki, Sami",
+      "Ribas, Ignasi",
+      "Shelyag, Sergiy",
+      "Kopp, Gregory",
+      "Nemec, Nina-Elisabeth",
+      "Stucki, Sophie"
+    ],
+    "modified": "2026-06-14T06:22:13.151237+00:00",
+    "created": "2026-06-14T06:22:12.912057+00:00",
+    "doi": "10.5281/zenodo.20685805",
+    "record_url": "https://zenodo.org/records/20685805",
+    "pdf_key": "Cool_Stars_Poster_Florian_Kroell.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20685805/files/Cool_Stars_Poster_Florian_Kroell.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20685805.jpg"
+  },
+  {
     "id": 20506760,
     "title": "Dense, dusty, and asymmetric circumstellar environment around the extreme Galactic red supergiant NML Cyg",
     "authors": [
@@ -1129,6 +1263,22 @@
     "pdf_key": "Poster_Cristi-Cambiaso_CoolStars23.pdf",
     "pdf_url": "https://zenodo.org/api/records/20593595/files/Poster_Cristi-Cambiaso_CoolStars23.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20593595.jpg"
+  },
+  {
+    "id": 20694743,
+    "title": "Detached Eclipsing Binaries as Model-Independent Calibrators of Chemical Clock Relations",
+    "authors": [
+      "Kalsi, Anish",
+      "Hełminiak, Krzysztof",
+      "Pawar, Ganesh N."
+    ],
+    "modified": "2026-06-15T16:20:18.712931+00:00",
+    "created": "2026-06-15T01:27:28.486440+00:00",
+    "doi": "10.5281/zenodo.20694743",
+    "record_url": "https://zenodo.org/records/20694743",
+    "pdf_key": "Anish_cool_stars_23_Poster.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20694743/files/Anish_cool_stars_23_Poster.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20694743.jpg"
   },
   {
     "id": 20549869,
@@ -1309,6 +1459,23 @@
     "thumbnail_url": "images/poster-thumbs/20617031.jpg"
   },
   {
+    "id": 20726874,
+    "title": "Dust Processing and the Near-Infrared Extinction Law in NGC 346 with JWST/NIRSpec",
+    "authors": [
+      "Maria Gabriela, Navarro",
+      "Katia, Biazzo",
+      "Guido, De Marchi",
+      "Brunella, Nisini"
+    ],
+    "modified": "2026-06-17T06:27:24.873838+00:00",
+    "created": "2026-06-17T06:27:24.622772+00:00",
+    "doi": "10.5281/zenodo.20726874",
+    "record_url": "https://zenodo.org/records/20726874",
+    "pdf_key": "final.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20726874/files/final.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20726874.jpg"
+  },
+  {
     "id": 20681590,
     "title": "Dwarf Carbon Stars in Gaia DR3: Atmospheric Discrimination at the Faint Limit",
     "authors": [
@@ -1353,6 +1520,20 @@
     "pdf_key": "Cool-Stars-23.pdf",
     "pdf_url": "https://zenodo.org/api/records/20636824/files/Cool-Stars-23.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20636824.jpg"
+  },
+  {
+    "id": 20694010,
+    "title": "Early onset of extra mixing in evolved cool stars:   lithium and CNO evidence from RS CVn systems",
+    "authors": [
+      "Bale, Barkha"
+    ],
+    "modified": "2026-06-15T01:00:00.276576+00:00",
+    "created": "2026-06-14T23:26:49.807566+00:00",
+    "doi": "10.5281/zenodo.20694010",
+    "record_url": "https://zenodo.org/records/20694010",
+    "pdf_key": "BB RSCVN COOL STAR POSTER TOKYO.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20694010/files/BB%20RSCVN%20COOL%20STAR%20POSTER%20TOKYO.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20694010.jpg"
   },
   {
     "id": 20640082,
@@ -1433,6 +1614,24 @@
     "pdf_key": "P1192_engin_bahar_poster_portrait.pdf",
     "pdf_url": "https://zenodo.org/api/records/20582732/files/P1192_engin_bahar_poster_portrait.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20582732.jpg"
+  },
+  {
+    "id": 20711096,
+    "title": "Extrasolar Wind-Powered Aurorae:  Radio Detections in Two Nearby M-Dwarf Systems",
+    "authors": [
+      "Calatayud-Borras, Yéssica",
+      "Pérez-Torres, Miguel",
+      "Climent-Oliver, Joan",
+      "Peña-Moñino, Luís",
+      "Guirado, Jose Carlos Guirado"
+    ],
+    "modified": "2026-06-16T07:34:07.163565+00:00",
+    "created": "2026-06-16T07:34:06.902643+00:00",
+    "doi": "10.5281/zenodo.20711096",
+    "record_url": "https://zenodo.org/records/20711096",
+    "pdf_key": "cs23_Calatayud_Yessica_P2009.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20711096/files/cs23_Calatayud_Yessica_P2009.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20711096.jpg"
   },
   {
     "id": 20581793,
@@ -1540,6 +1739,21 @@
     "pdf_key": "flares_coolstars.pdf",
     "pdf_url": "https://zenodo.org/api/records/20589909/files/flares_coolstars.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20589909.jpg"
+  },
+  {
+    "id": 20686513,
+    "title": "Flow structures of starspots in low-mass stars",
+    "authors": [
+      "Park, Sangjin",
+      "Hotta, Hideyuki"
+    ],
+    "modified": "2026-06-14T14:14:36.235045+00:00",
+    "created": "2026-06-14T14:14:35.978120+00:00",
+    "doi": "10.5281/zenodo.20686513",
+    "record_url": "https://zenodo.org/records/20686513",
+    "pdf_key": "coolstars2026_park_poster.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20686513/files/coolstars2026_park_poster.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20686513.jpg"
   },
   {
     "id": 20661190,
@@ -1655,6 +1869,23 @@
     "thumbnail_url": "images/poster-thumbs/20564767.jpg"
   },
   {
+    "id": 20709068,
+    "title": "High Resolution Spectroscopic Analysis of Selected Bulge Globular Clusters: A case study for NGC6558",
+    "authors": [
+      "ÇALIŞKAN, Mihan",
+      "MALTAŞ, Ceyda",
+      "KAMAÇ, Sedat",
+      "ŞAHİN, Timur"
+    ],
+    "modified": "2026-06-16T07:34:24.422155+00:00",
+    "created": "2026-06-16T00:15:12.346007+00:00",
+    "doi": "10.5281/zenodo.20709068",
+    "record_url": "https://zenodo.org/records/20709068",
+    "pdf_key": "Coolstar_e_poster_Mihan _ÇALIŞKAN.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20709068/files/Coolstar_e_poster_Mihan%20_%C3%87ALI%C5%9EKAN.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20709068.jpg"
+  },
+  {
     "id": 20586656,
     "title": "High-Resolution Atmospheric Retrieval of the Benchmark Brown Dwarf HR 7672 B with REACH/Subaru",
     "authors": [
@@ -1747,6 +1978,28 @@
     "thumbnail_url": "images/poster-thumbs/20669769.jpg"
   },
   {
+    "id": 20601802,
+    "title": "Hunting for Magnetic Star-Planet Interactions with sensitive radio and radial velocity surveys",
+    "authors": [
+      "Koo, Elise",
+      "Callingham, Joseph",
+      "Stefansson, Gudmundur",
+      "Shimwell, Timothy",
+      "Delamer, Megan",
+      "Mahadevan, Suvrath",
+      "Kavanagh, Robert",
+      "Vedantham, Harish",
+      "The HPF and NEID teams"
+    ],
+    "modified": "2026-06-09T00:01:16.542554+00:00",
+    "created": "2026-06-09T00:01:16.316938+00:00",
+    "doi": "10.5281/zenodo.20601802",
+    "record_url": "https://zenodo.org/records/20601802",
+    "pdf_key": "Cool_star_poster_EK.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20601802/files/Cool_star_poster_EK.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20601802.jpg"
+  },
+  {
     "id": 20598785,
     "title": "IRAS to AKARI Mapping",
     "authors": [
@@ -1763,20 +2016,20 @@
     "thumbnail_url": "images/poster-thumbs/20598785.jpg"
   },
   {
-    "id": 20635033,
+    "id": 20712062,
     "title": "Improving Small Exoplanet Mass Measurements: A New Seasonal Approach to Modeling Active Region RVs",
     "authors": [
       "Jensen, Faith",
       "Nava, Chantanelle",
       "Jamison, Myra"
     ],
-    "modified": "2026-06-11T01:06:26.644600+00:00",
-    "created": "2026-06-11T01:06:26.311238+00:00",
-    "doi": "10.5281/zenodo.20635033",
-    "record_url": "https://zenodo.org/records/20635033",
-    "pdf_key": "Jensen_Faith.pdf",
-    "pdf_url": "https://zenodo.org/api/records/20635033/files/Jensen_Faith.pdf/content",
-    "thumbnail_url": "images/poster-thumbs/20635033.jpg"
+    "modified": "2026-06-16T05:42:12.052915+00:00",
+    "created": "2026-06-16T05:42:11.766217+00:00",
+    "doi": "10.5281/zenodo.20712062",
+    "record_url": "https://zenodo.org/records/20712062",
+    "pdf_key": "CoolStars23_Jensen.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20712062/files/CoolStars23_Jensen.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20712062.jpg"
   },
   {
     "id": 20593531,
@@ -1829,6 +2082,23 @@
     "thumbnail_url": "images/poster-thumbs/20590133.jpg"
   },
   {
+    "id": 20694507,
+    "title": "Instrumental profile (IP) characterization and correction in high-resolution spectra",
+    "authors": [
+      "Bugatti, Maddalena",
+      "Hirano, Teruyuki",
+      "Pepe, Francesco",
+      "Lovis, Christophe"
+    ],
+    "modified": "2026-06-15T00:33:52.352937+00:00",
+    "created": "2026-06-15T00:33:52.049715+00:00",
+    "doi": "10.5281/zenodo.20694507",
+    "record_url": "https://zenodo.org/records/20694507",
+    "pdf_key": "CoolStar (1).pdf",
+    "pdf_url": "https://zenodo.org/api/records/20694507/files/CoolStar%20(1).pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20694507.jpg"
+  },
+  {
     "id": 20596524,
     "title": "Investigating the Deterministic Relationship Between Stellar Rotation and Age In Old Sun-like Stars",
     "authors": [
@@ -1874,6 +2144,28 @@
     "pdf_key": "CoolStars23_TRAPPIST1_Vasilyev_6_06_2026.pdf",
     "pdf_url": "https://zenodo.org/api/records/20560187/files/CoolStars23_TRAPPIST1_Vasilyev_6_06_2026.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20560187.jpg"
+  },
+  {
+    "id": 20695428,
+    "title": "JWST/MIRI imaging of white dwarfs:  Searching for giant planets, brown dwarfs and debris disks",
+    "authors": [
+      "Albert, Loic",
+      "Poulsen, Sarah",
+      "Le Bourdais, Erika",
+      "Debes, John",
+      "Kilic, Mukremin",
+      "Mullally, Susan",
+      "Reach, William",
+      "Cracraft, Misty",
+      "Boucher, Samuel"
+    ],
+    "modified": "2026-06-15T03:33:34.025830+00:00",
+    "created": "2026-06-15T03:33:33.705628+00:00",
+    "doi": "10.5281/zenodo.20695428",
+    "record_url": "https://zenodo.org/records/20695428",
+    "pdf_key": "posterCS23_LoicAlbert.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20695428/files/posterCS23_LoicAlbert.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20695428.jpg"
   },
   {
     "id": 20616752,
@@ -2014,6 +2306,25 @@
     "thumbnail_url": "images/poster-thumbs/20584337.jpg"
   },
   {
+    "id": 20690690,
+    "title": "Linking Photometry and Global MHD Simulations Through a Magnetic Threshold for Spot Formation",
+    "authors": [
+      "Degott, Lucie",
+      "Perri, Barbara",
+      "Pinçon, Charly",
+      "Buchlin, Eric",
+      "Baudin, Frédéric",
+      "Samadi, Réza"
+    ],
+    "modified": "2026-06-15T02:18:17.252616+00:00",
+    "created": "2026-06-15T02:18:16.697966+00:00",
+    "doi": "10.5281/zenodo.20690690",
+    "record_url": "https://zenodo.org/records/20690690",
+    "pdf_key": "CoolStar23_Tokyo_Degott_online-1.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20690690/files/CoolStar23_Tokyo_Degott_online-1.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20690690.jpg"
+  },
+  {
     "id": 20679776,
     "title": "MAGNETIC FIELDS IN M AND BROWN DWARFS FROM HIGH-RESOLUTION INFRARED SPECTRA",
     "authors": [
@@ -2027,6 +2338,22 @@
     "pdf_key": "Poster CoolStars23.pdf",
     "pdf_url": "https://zenodo.org/api/records/20679776/files/Poster%20CoolStars23.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20679776.jpg"
+  },
+  {
+    "id": 20724726,
+    "title": "MESA Isochrone Constructor: A Python Package for Streamlined Isochrone Construction and Comparison",
+    "authors": [
+      "Saul, Gregory",
+      "Joyce, Meridith",
+      "University of Wyoming"
+    ],
+    "modified": "2026-06-17T02:17:15.232588+00:00",
+    "created": "2026-06-17T02:17:14.877424+00:00",
+    "doi": "10.5281/zenodo.20724726",
+    "record_url": "https://zenodo.org/records/20724726",
+    "pdf_key": "Cool Stars Poster - Gregory Saul.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20724726/files/Cool%20Stars%20Poster%20-%20Gregory%20Saul.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20724726.jpg"
   },
   {
     "id": 20635746,
@@ -2150,6 +2477,24 @@
     "thumbnail_url": "images/poster-thumbs/20596306.jpg"
   },
   {
+    "id": 20666012,
+    "title": "Magneto archeology of evolved stars",
+    "authors": [
+      "Einramhof, Lukas",
+      "Bugnet, Lisa",
+      "Calcaferro, Leila Magdalena",
+      "Barrault, Lucas",
+      "Das, Srijan Bharati"
+    ],
+    "modified": "2026-06-14T13:31:30.942433+00:00",
+    "created": "2026-06-14T13:31:30.642522+00:00",
+    "doi": "10.5281/zenodo.20666012",
+    "record_url": "https://zenodo.org/records/20666012",
+    "pdf_key": "poster.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20666012/files/poster.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20666012.jpg"
+  },
+  {
     "id": 20588783,
     "title": "Magnetospheres of PMS stars with exoplanets and low-mass companions",
     "authors": [
@@ -2201,6 +2546,21 @@
     "pdf_key": "Montet_CS23.pdf",
     "pdf_url": "https://zenodo.org/api/records/20587529/files/Montet_CS23.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20587529.jpg"
+  },
+  {
+    "id": 20680852,
+    "title": "Mapping the Landscape of M Dwarf X-ray Flares: New Discoveries in Context",
+    "authors": [
+      "Dickstein, Imri Abraham",
+      "Soumagnac, Maayane"
+    ],
+    "modified": "2026-06-14T21:42:00.727986+00:00",
+    "created": "2026-06-14T21:42:00.506571+00:00",
+    "doi": "10.5281/zenodo.20680852",
+    "record_url": "https://zenodo.org/records/20680852",
+    "pdf_key": "imri_dickstein_cool_stars23_tokyo_new.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20680852/files/imri_dickstein_cool_stars23_tokyo_new.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20680852.jpg"
   },
   {
     "id": 20673151,
@@ -2400,6 +2760,25 @@
     "thumbnail_url": "images/poster-thumbs/20668107.jpg"
   },
   {
+    "id": 20696791,
+    "title": "Near-Infrared High-resolution Spectroscopy for a Very Young Hot Jupiter",
+    "authors": [
+      "Hirano, Teruyuki",
+      "Carteret, Yann",
+      "Gaidos, Eric",
+      "Krishnamurthy, Vigneshwaran",
+      "Bourrier, Vincent",
+      "IRD team"
+    ],
+    "modified": "2026-06-15T06:39:09.083267+00:00",
+    "created": "2026-06-15T06:39:08.873640+00:00",
+    "doi": "10.5281/zenodo.20696791",
+    "record_url": "https://zenodo.org/records/20696791",
+    "pdf_key": "CS23_202606_hirano.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20696791/files/CS23_202606_hirano.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20696791.jpg"
+  },
+  {
     "id": 20579014,
     "title": "New X-ray Emitting Symbiotic Star Candidates Detected with eROSITA",
     "authors": [
@@ -2560,7 +2939,7 @@
       "Lee, Byeong-Cheol",
       "Park, Myeong-Gu"
     ],
-    "modified": "2026-06-14T02:11:30.571473+00:00",
+    "modified": "2026-06-14T03:48:18.109088+00:00",
     "created": "2026-06-14T02:11:30.275024+00:00",
     "doi": "10.5281/zenodo.20684488",
     "record_url": "https://zenodo.org/records/20684488",
@@ -2764,6 +3143,23 @@
     "thumbnail_url": "images/poster-thumbs/20581731.jpg"
   },
   {
+    "id": 20702169,
+    "title": "Plasma effects in models of winds from cool evolved stars",
+    "authors": [
+      "André, Mats",
+      "Eriksson, Kjell",
+      "Höfner, Susanne",
+      "Freytag, Bernd"
+    ],
+    "modified": "2026-06-15T14:01:04.609036+00:00",
+    "created": "2026-06-15T14:01:04.337204+00:00",
+    "doi": "10.5281/zenodo.20702169",
+    "record_url": "https://zenodo.org/records/20702169",
+    "pdf_key": "Cool_Stars_2026_poster_portrait MA.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20702169/files/Cool_Stars_2026_poster_portrait%20MA.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20702169.jpg"
+  },
+  {
     "id": 20420912,
     "title": "Pre-main sequence stars and their substellar companions",
     "authors": [
@@ -2832,6 +3228,27 @@
     "pdf_key": "Lagarde_coolstars_poster2.pdf",
     "pdf_url": "https://zenodo.org/api/records/20381476/files/Lagarde_coolstars_poster2.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20381476.jpg"
+  },
+  {
+    "id": 20693651,
+    "title": "Probing sodium absorption in the atmosphere of TOI-5398 b with Seimei/GAOES-RV",
+    "authors": [
+      "Kawauchi, Kiyoe",
+      "Kawashima, Yui",
+      "Kuzuhara, Masayuki",
+      "Nugroho, Stevanus",
+      "Sato, Bun'ei",
+      "Omiya, Masashi",
+      "Tajitsu, Akito",
+      "Izumiura, Hideyuki"
+    ],
+    "modified": "2026-06-14T23:22:26.366825+00:00",
+    "created": "2026-06-14T23:22:26.141929+00:00",
+    "doi": "10.5281/zenodo.20693651",
+    "record_url": "https://zenodo.org/records/20693651",
+    "pdf_key": "CoolStars_2026.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20693651/files/CoolStars_2026.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20693651.jpg"
   },
   {
     "id": 20591259,
@@ -2919,6 +3336,21 @@
     "pdf_key": "CS23_Fritzewski.pdf",
     "pdf_url": "https://zenodo.org/api/records/20612310/files/CS23_Fritzewski.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20612310.jpg"
+  },
+  {
+    "id": 20687507,
+    "title": "Quantifying Chromospheric Activity by Using the Spectral Subtraction Technique: iSTARMOD code",
+    "authors": [
+      "Montes, David",
+      "Labarga, Fernando"
+    ],
+    "modified": "2026-06-14T13:31:02.292318+00:00",
+    "created": "2026-06-14T13:31:02.038918+00:00",
+    "doi": "10.5281/zenodo.20687507",
+    "record_url": "https://zenodo.org/records/20687507",
+    "pdf_key": "poster_DMontesFLabarga_iSTARMOD_cs23.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20687507/files/poster_DMontesFLabarga_iSTARMOD_cs23.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20687507.jpg"
   },
   {
     "id": 20670407,
@@ -3010,6 +3442,42 @@
     "pdf_key": "Luis_pena-monino_cs23_poster_zenodo.pptx.pdf",
     "pdf_url": "https://zenodo.org/api/records/20508013/files/Luis_pena-monino_cs23_poster_zenodo.pptx.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20508013.jpg"
+  },
+  {
+    "id": 20698315,
+    "title": "Red Dwarf Upside-Down Cake: M Dwarf Evolution with the SPHINX Atmosphere Grid",
+    "authors": [
+      "Davis, Christopher Evan",
+      "Fortney, Jonathan",
+      "Iyer, Aishwarya",
+      "Müller, Simon",
+      "Line, Michael",
+      "Muirhead, Philip",
+      "Helled, Ravit"
+    ],
+    "modified": "2026-06-15T14:00:32.001970+00:00",
+    "created": "2026-06-15T14:00:31.439045+00:00",
+    "doi": "10.5281/zenodo.20698315",
+    "record_url": "https://zenodo.org/records/20698315",
+    "pdf_key": "C Evan Davis - CoolStars (2026) Poster (A0 Size).pdf",
+    "pdf_url": "https://zenodo.org/api/records/20698315/files/C%20Evan%20Davis%20-%20CoolStars%20(2026)%20Poster%20(A0%20Size).pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20698315.jpg"
+  },
+  {
+    "id": 20687260,
+    "title": "Refining a New Probe of the Hubble Tension: Testing Homogeneity Assumptions in the J-region Asymptotic Giant Branch Method",
+    "authors": [
+      "Li, Siyang",
+      "Filippenko, Alexei",
+      "LeBaron, Natalie"
+    ],
+    "modified": "2026-06-14T13:31:15.687993+00:00",
+    "created": "2026-06-14T13:31:15.412242+00:00",
+    "doi": "10.5281/zenodo.20687260",
+    "record_url": "https://zenodo.org/records/20687260",
+    "pdf_key": "Li_Siyang_Coolstars23_Poster.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20687260/files/Li_Siyang_Coolstars23_Poster.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20687260.jpg"
   },
   {
     "id": 20600775,
@@ -3141,6 +3609,29 @@
     "pdf_key": "DVukadinovic_loggf_from_solar_spectra.pdf",
     "pdf_url": "https://zenodo.org/api/records/20677262/files/DVukadinovic_loggf_from_solar_spectra.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20677262.jpg"
+  },
+  {
+    "id": 20694102,
+    "title": "Roman Space Telescope Ultracool Dwarf Colors",
+    "authors": [
+      "Honaker, Easton",
+      "Rothermich, Austin",
+      "Faherty, Jacqueline",
+      "Schneider, Adam",
+      "Kirkpatrick, Davy",
+      "Meisner, Aaron",
+      "Kuchner, Marc",
+      "Cruz, Kelle",
+      "Gizis, John",
+      "The Backyard Worlds Collaboration"
+    ],
+    "modified": "2026-06-14T23:28:25.330099+00:00",
+    "created": "2026-06-14T23:28:25.000426+00:00",
+    "doi": "10.5281/zenodo.20694102",
+    "record_url": "https://zenodo.org/records/20694102",
+    "pdf_key": "CoolStars23_posterHonaker_final.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20694102/files/CoolStars23_posterHonaker_final.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20694102.jpg"
   },
   {
     "id": 20578844,
@@ -3423,6 +3914,24 @@
     "thumbnail_url": "images/poster-thumbs/20596431.jpg"
   },
   {
+    "id": 20720226,
+    "title": "SoWiSP: The Solar and stellar Wide-Spectral coverage Polarimeter",
+    "authors": [
+      "Galloway, Michelle",
+      "Paillon, Dorian",
+      "Kleint, Lucia",
+      "Sellers, Sean",
+      "Pilate, Quentin"
+    ],
+    "modified": "2026-06-18T03:28:58.103278+00:00",
+    "created": "2026-06-17T03:18:36.482824+00:00",
+    "doi": "10.5281/zenodo.20720226",
+    "record_url": "https://zenodo.org/records/20720226",
+    "pdf_key": "CoolStars_2026_Galloway_V4.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20720226/files/CoolStars_2026_Galloway_V4.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20720226.jpg"
+  },
+  {
     "id": 20575590,
     "title": "Solar P- and G-Mode Analysis of Global Compressible Convection Simulations on Non-Cartesian Grids",
     "authors": [
@@ -3484,6 +3993,20 @@
     "thumbnail_url": "images/poster-thumbs/20591877.jpg"
   },
   {
+    "id": 20380147,
+    "title": "Solving the mixing puzzle in giant stars \nusing the Galactic Stellar Population Synthesis Model",
+    "authors": [
+      "Lagarde, Nadège"
+    ],
+    "modified": "2026-05-25T14:53:46.072688+00:00",
+    "created": "2026-05-25T14:53:45.741041+00:00",
+    "doi": "10.5281/zenodo.20380147",
+    "record_url": "https://zenodo.org/records/20380147",
+    "pdf_key": "Lagarde_coolstars_poster1.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20380147/files/Lagarde_coolstars_poster1.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20380147.jpg"
+  },
+  {
     "id": 20643319,
     "title": "Space Weather around M dwarfs: Role of Coronal Mass Ejections",
     "authors": [
@@ -3535,6 +4058,27 @@
     "pdf_key": "poster-tokyo2.pdf",
     "pdf_url": "https://zenodo.org/api/records/20594752/files/poster-tokyo2.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20594752.jpg"
+  },
+  {
+    "id": 20692568,
+    "title": "Stability of light curve solutions of DEBs for benchmark candidates in PLATO's LOPS2 field",
+    "authors": [
+      "Pawar, Ganesh N.",
+      "Hełminiak, Krzysztof",
+      "Miller, Nicola",
+      "Marcadon, Frédéric",
+      "Moharana, Ayush",
+      "Pawar, Tilaksingh",
+      "Kalsi, Anish",
+      "Konacki, Maciej"
+    ],
+    "modified": "2026-06-15T16:21:12.294324+00:00",
+    "created": "2026-06-14T19:37:55.243712+00:00",
+    "doi": "10.5281/zenodo.20692568",
+    "record_url": "https://zenodo.org/records/20692568",
+    "pdf_key": "CS23_poster_GNP_final.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20692568/files/CS23_poster_GNP_final.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20692568.jpg"
   },
   {
     "id": 20592438,
@@ -3691,6 +4235,23 @@
     "pdf_key": "DVukadinovic_metallicity_effect_on_RV_jitter.pdf",
     "pdf_url": "https://zenodo.org/api/records/20677193/files/DVukadinovic_metallicity_effect_on_RV_jitter.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20677193.jpg"
+  },
+  {
+    "id": 20709973,
+    "title": "Storms are Brewing in the ONC A First Look at Variability Results from a Sample of Young Substellar Worlds.pdf",
+    "authors": [
+      "McCarthy, Allison",
+      "Limbach, Mary Anne",
+      "Vos, Johanna",
+      "Bardalez Gagliuffi, Daniella"
+    ],
+    "modified": "2026-06-16T01:31:58.412864+00:00",
+    "created": "2026-06-16T01:31:58.103966+00:00",
+    "doi": "10.5281/zenodo.20709973",
+    "record_url": "https://zenodo.org/records/20709973",
+    "pdf_key": "Storms are Brewing in the ONC A First Look at Variability Results from a Sample of Young Substellar Worlds.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20709973/files/Storms%20are%20Brewing%20in%20the%20ONC%20A%20First%20Look%20at%20Variability%20Results%20from%20a%20Sample%20of%20Young%20Substellar%20Worlds.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20709973.jpg"
   },
   {
     "id": 20649400,
@@ -3857,6 +4418,28 @@
     "thumbnail_url": "images/poster-thumbs/20669751.jpg"
   },
   {
+    "id": 20701637,
+    "title": "TESS Superflares and Quasi-Periodic Pulsations on the Active Ultra-Fast Rotator LO Peg",
+    "authors": [
+      "Karmakar, Subhajeet",
+      "Youngblood, Allison",
+      "Schlieder, Joshua",
+      "Savanov, Igor S.",
+      "Inglis, Andrew",
+      "Barclay, Thomas",
+      "Pandey, Jeewan C",
+      "Singh, Gurpreet",
+      "Ghosh, Samrat"
+    ],
+    "modified": "2026-06-16T00:14:29.630240+00:00",
+    "created": "2026-06-16T00:14:28.698763+00:00",
+    "doi": "10.5281/zenodo.20701637",
+    "record_url": "https://zenodo.org/records/20701637",
+    "pdf_key": "Subhajeet_Karmakar_Cool_Stars_23_Poster_Tokyo_2026.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20701637/files/Subhajeet_Karmakar_Cool_Stars_23_Poster_Tokyo_2026.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20701637.jpg"
+  },
+  {
     "id": 20497283,
     "title": "TIDALLY DELAYED SPIN-DOWN OF VERY LOW MASS STARS",
     "authors": [
@@ -3917,6 +4500,23 @@
     "pdf_key": "Cool Stars Poster Japan.pdf",
     "pdf_url": "https://zenodo.org/api/records/20536686/files/Cool%20Stars%20Poster%20Japan.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20536686.jpg"
+  },
+  {
+    "id": 20693968,
+    "title": "Testing for Planetary Modulation of YZ Ceti's Radio Bursts",
+    "authors": [
+      "Villadsen, Jackie",
+      "Pineda, J. Sebastian",
+      "Bellotti, Stefano",
+      "Vidotto, Aline"
+    ],
+    "modified": "2026-06-14T23:25:38.164103+00:00",
+    "created": "2026-06-14T23:25:37.843868+00:00",
+    "doi": "10.5281/zenodo.20693968",
+    "record_url": "https://zenodo.org/records/20693968",
+    "pdf_key": "2026.06 - CS23 poster.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20693968/files/2026.06%20-%20CS23%20poster.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20693968.jpg"
   },
   {
     "id": 20528639,
@@ -4096,6 +4696,34 @@
     "thumbnail_url": "images/poster-thumbs/20542692.jpg"
   },
   {
+    "id": 20691744,
+    "title": "The Flaring of Proxima Cen over an Entire Magnetic Activity Cycle",
+    "authors": [
+      "Carden, Kylee"
+    ],
+    "modified": "2026-06-14T21:44:22.417671+00:00",
+    "created": "2026-06-14T21:44:22.135630+00:00",
+    "doi": "10.5281/zenodo.20691744",
+    "record_url": "https://zenodo.org/records/20691744",
+    "pdf_key": "Poster.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20691744/files/Poster.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20691744.jpg"
+  },
+  {
+    "id": 20540622,
+    "title": "The HADES RV Programme with HARPS-N@TNG - HADES: THE HArps-n red Dwarf Exoplanet Survey",
+    "authors": [
+      "Affer, Laura"
+    ],
+    "modified": "2026-06-04T11:02:41.975365+00:00",
+    "created": "2026-06-04T11:02:41.684957+00:00",
+    "doi": "10.5281/zenodo.20540622",
+    "record_url": "https://zenodo.org/records/20540622",
+    "pdf_key": "poster_CS23.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20540622/files/poster_CS23.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20540622.jpg"
+  },
+  {
     "id": 20650900,
     "title": "The JWST Benchmark Brown Dwarf Library",
     "authors": [
@@ -4204,6 +4832,20 @@
     "pdf_key": "Poster_ZHANG_CS23.pdf",
     "pdf_url": "https://zenodo.org/api/records/20593567/files/Poster_ZHANG_CS23.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20593567.jpg"
+  },
+  {
+    "id": 20687240,
+    "title": "The Power Budget of Star Planet Magnetic Interactions",
+    "authors": [
+      "Paul, Arghyadeep"
+    ],
+    "modified": "2026-06-14T08:21:14.379092+00:00",
+    "created": "2026-06-14T08:21:13.982738+00:00",
+    "doi": "10.5281/zenodo.20687240",
+    "record_url": "https://zenodo.org/records/20687240",
+    "pdf_key": "Poster_Coolstars.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20687240/files/Poster_Coolstars.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20687240.jpg"
   },
   {
     "id": 20602144,
@@ -4673,6 +5315,23 @@
     "thumbnail_url": "images/poster-thumbs/20597892.jpg"
   },
   {
+    "id": 20728061,
+    "title": "Tracing Multiple Stellar Populations in Bulge Globular Clusters: A Case Study for NGC 6316",
+    "authors": [
+      "MALTAŞ, Ceyda",
+      "ÇALIŞKAN, Mihan",
+      "KAMAÇ, Sedat",
+      "ŞAHİN, Timur"
+    ],
+    "modified": "2026-06-17T08:03:06.600665+00:00",
+    "created": "2026-06-17T07:57:12.170400+00:00",
+    "doi": "10.5281/zenodo.20728061",
+    "record_url": "https://zenodo.org/records/20728061",
+    "pdf_key": "Coolstar_23_eposter_Ceyda_Maltas.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20728061/files/Coolstar_23_eposter_Ceyda_Maltas.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20728061.jpg"
+  },
+  {
     "id": 20596553,
     "title": "Tracing s-, i-, and r-process signatures with barium isotope ratios",
     "authors": [
@@ -4838,7 +5497,7 @@
       "VIEVARD, Sébastien",
       "TAMURA, Motohide"
     ],
-    "modified": "2026-06-08T11:27:11.252549+00:00",
+    "modified": "2026-06-18T13:37:09.216945+00:00",
     "created": "2026-06-08T11:27:11.001768+00:00",
     "doi": "10.5281/zenodo.20590799",
     "record_url": "https://zenodo.org/records/20590799",
@@ -4863,6 +5522,23 @@
     "pdf_key": "CoolStars23.pdf",
     "pdf_url": "https://zenodo.org/api/records/20578899/files/CoolStars23.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20578899.jpg"
+  },
+  {
+    "id": 20709596,
+    "title": "Unveiling the distinctive spindown histories of fully convective M dwarfs",
+    "authors": [
+      "Pass, Emily",
+      "Charbonneau, David",
+      "Winters, Jennifer",
+      "Vanderburg, Andrew"
+    ],
+    "modified": "2026-06-16T01:22:35.449080+00:00",
+    "created": "2026-06-16T00:58:53.892336+00:00",
+    "doi": "10.5281/zenodo.20709596",
+    "record_url": "https://zenodo.org/records/20709596",
+    "pdf_key": "epass_coolstars_poster.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20709596/files/epass_coolstars_poster.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20709596.jpg"
   },
   {
     "id": 20648610,
@@ -4905,6 +5581,25 @@
     "thumbnail_url": "images/poster-thumbs/20652134.jpg"
   },
   {
+    "id": 20694616,
+    "title": "Wasp-12: To disk or not to disk?",
+    "authors": [
+      "Colombo, Salvatore",
+      "Uzzo, Federica",
+      "Spinelli, Riccardo",
+      "Petralia, Antonino",
+      "Cowan, Nicholas",
+      "Micela, Giuseppina"
+    ],
+    "modified": "2026-06-15T00:58:06.283785+00:00",
+    "created": "2026-06-15T00:58:05.923279+00:00",
+    "doi": "10.5281/zenodo.20694616",
+    "record_url": "https://zenodo.org/records/20694616",
+    "pdf_key": "CS22Poster.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20694616/files/CS22Poster.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20694616.jpg"
+  },
+  {
     "id": 20582392,
     "title": "Weather Report of Variable Brown Dwarf from Time Resolved Retrievals on JWST Time Series Spectroscopy",
     "authors": [
@@ -4913,13 +5608,50 @@
       "Littlefair, Stuart",
       "Pike, Eleanor"
     ],
-    "modified": "2026-06-08T11:02:48.164971+00:00",
+    "modified": "2026-06-15T03:35:35.235580+00:00",
     "created": "2026-06-08T11:02:47.797906+00:00",
     "doi": "10.5281/zenodo.20582392",
     "record_url": "https://zenodo.org/records/20582392",
     "pdf_key": "coolstar_FeiWang.pdf",
     "pdf_url": "https://zenodo.org/api/records/20582392/files/coolstar_FeiWang.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20582392.jpg"
+  },
+  {
+    "id": 20693662,
+    "title": "What can mass loss observations and models tell us about the properties of mass-losing AGB stars?",
+    "authors": [
+      "Prager, Henry",
+      "Willson, Lee Anne",
+      "Guzik, Joyce",
+      "Creech-Eakman, Michelle",
+      "Wang, Qian"
+    ],
+    "modified": "2026-06-14T23:18:50.724252+00:00",
+    "created": "2026-06-14T23:18:50.479794+00:00",
+    "doi": "10.5281/zenodo.20693662",
+    "record_url": "https://zenodo.org/records/20693662",
+    "pdf_key": "Cool_Stars_23_Poster (4).pdf",
+    "pdf_url": "https://zenodo.org/api/records/20693662/files/Cool_Stars_23_Poster%20(4).pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20693662.jpg"
+  },
+  {
+    "id": 20713126,
+    "title": "What's the Big Picture? Capturing All the Companions to the Lowest-Mass Stars",
+    "authors": [
+      "Vrijmoet, Eliot",
+      "Ward-Duong, Kimberly",
+      "Niu, Susan",
+      "Matthews, Alette",
+      "Henry, Todd",
+      "Williams, Lucy"
+    ],
+    "modified": "2026-06-16T07:34:36.253910+00:00",
+    "created": "2026-06-16T07:34:36.006250+00:00",
+    "doi": "10.5281/zenodo.20713126",
+    "record_url": "https://zenodo.org/records/20713126",
+    "pdf_key": "poster_Vrijmoet_CoolStars23_v6.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20713126/files/poster_Vrijmoet_CoolStars23_v6.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20713126.jpg"
   },
   {
     "id": 20541936,
@@ -5137,5 +5869,21 @@
     "pdf_key": "CS23_Zeeman_Doppler_Imaging_of_HD_219134_08062026-1.pdf",
     "pdf_url": "https://zenodo.org/api/records/20593109/files/CS23_Zeeman_Doppler_Imaging_of_HD_219134_08062026-1.pdf/content",
     "thumbnail_url": "images/poster-thumbs/20593109.jpg"
+  },
+  {
+    "id": 20694424,
+    "title": "petrafit: Rapid Silicate Cloud Identification in Substellar and Exoplanet Atmospheres",
+    "authors": [
+      "Rowland, Melanie",
+      "Faherty, Jacqueline",
+      "Suárez, Genaro"
+    ],
+    "modified": "2026-06-15T00:33:15.041533+00:00",
+    "created": "2026-06-15T00:33:14.751374+00:00",
+    "doi": "10.5281/zenodo.20694424",
+    "record_url": "https://zenodo.org/records/20694424",
+    "pdf_key": "CoolStars23Poster7.pdf",
+    "pdf_url": "https://zenodo.org/api/records/20694424/files/CoolStars23Poster7.pdf/content",
+    "thumbnail_url": "images/poster-thumbs/20694424.jpg"
   }
 ]
